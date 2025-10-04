@@ -1,0 +1,50 @@
+{
+  "ExamplePage": {
+  "title": "Bienvenido a la Página de Ejemplo",
+  "content": "Este es un bloque de contenido de ejemplo que es intencionalmente largo para ocupar buena parte de la pantalla. Puedes agregar párrafos, listas e incluso ejemplos de código para que parezca una página real. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc."
+},
+  "Error": {
+    "description": "<p>Lamentablemente encontramos un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>",
+    "title": "¡Algo salió mal!"
+  },
+  "IndexPage": {
+    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con el App Router de Next.js. Prueba cambiar el idioma en la esquina superior derecha y ver cómo cambia el contenido.",
+    "title": "ejemplo next-intl"
+  },
+  "LocaleLayout": {
+    "title": "ejemplo next-intl"
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, es {🇪🇸 Español} en {🇺🇸 Inglés}  other {Desconocido}}"
+  },
+  "Manifest": {
+    "name": "ejemplo next-intl"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "pathnames": "Rutas"
+  },
+  "NotFoundPage": {
+    "description": "Por favor, revisa la barra de direcciones del navegador o usa la navegación para ir a una página conocida.",
+    "title": "Página no encontrada"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Aprende más sobre next-intl en la documentación oficial.",
+        "href": "https://next-intl.dev",
+        "title": "Documentación"
+      },
+      "source": {
+        "description": "Explora el código fuente de este ejemplo en GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Código fuente"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>Las rutas también están internacionalizadas.</p><p>Si usas el idioma predeterminado (inglés), verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias a alemán, la URL se localiza (<code>/de/pfadnamen</code>).</p>",
+    "title": "Rutas"
+  }
+}
