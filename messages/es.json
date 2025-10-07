@@ -16,7 +16,7 @@
   },
   "LocaleSwitcher": {
     "label": "Cambiar idioma",
-    "locale": "{locale, select,\nen {🇺🇸 English}\nes {:España: ¡España}\nfr {:Francia: France: ¡Francia}\nde {:Alemania: Deutsch}\nit {🇮🇹 Italiano}\nnl {:¡Terrenes: Nederlands}\npt {::}\nother {¡Desconocido}\n}"
+    "locale": "{locale, select,\nen {🇺🇸 English}\nes {🇪🇸 Español}\nfr {🇫🇷 Français}\nde {🇩🇪 Deutsch}\nit {🇮🇹 Italiano}\nnl {🇳🇱 Nederlands}\npt {🇵🇹 Português}\nother {Unknown}\n}"
   },
   "Manifest": {
     "name": "ejemplo next-intl"

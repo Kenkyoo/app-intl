@@ -16,7 +16,7 @@
   },
   "LocaleSwitcher": {
     "label": "Taal wijzigen",
-    "locale": "{locale, select,\nen {🇺🇸 English}\nes {🇪🇸 Espanchar@@3ol}\nfr {🇫🇷 France: Francquesais}\nde {:Duitsy: Deutsch}\nit {:Italiy: Italiano}\nnl {:Nederland: Nederlands}\npt {🇵🇹 Portugees: Portugees}\nother {Onbekend}\n}"
+    "locale": "{locale, select,\nen {🇺🇸 English}\nes {🇪🇸 Español}\nfr {🇫🇷 Français}\nde {🇩🇪 Deutsch}\nit {🇮🇹 Italiano}\nnl {🇳🇱 Nederlands}\npt {🇵🇹 Português}\nother {Unknown}\n}"
   },
   "Manifest": {
     "name": "volgende-intl voorbeeld"

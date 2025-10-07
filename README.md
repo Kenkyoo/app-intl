@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# App Intl
 
-## Getting Started
+Aplicación Next.js con soporte multilenguaje usando **next-intl** y sincronización de traducciones con **Crowdin**.
 
-First, run the development server:
+## 🚀 Características
+
+* Next.js 15 con App Router
+* Soporte para múltiples idiomas
+* Integración con **next-intl**
+* Archivos JSON para mensajes por idioma
+* Traducciones gestionadas en **Crowdin**
+* TailwindCSS para el estilo
+
+## 📦 Instalación
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧩 Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev      # Inicia el servidor en modo desarrollo
+npm run build    # Genera la build de producción
+npm start        # Inicia la app compilada
+npm run lint     # Linter
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 Estructura de idiomas
 
-## Learn More
+```
+/messages
+  ├─ en.json
+  ├─ es.json
+  ├─ fr-FR.json
+  ├─ it-IT.json
+  ├─ de-DE.json
+  ├─ nl-NL.json
+  └─ pt-PT.json
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🔗 Integración con Crowdin
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Conecta tu proyecto de GitHub con Crowdin.
+2. Sube tus archivos fuente (`en.json`).
+3. Traduce los textos en la interfaz de Crowdin.
+4. Descarga las traducciones y colócalas en `/messages`.
+5. Asegúrate de que los nombres coincidan con el código de idioma usado en tu app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💡 Ejemplo de uso de `next-intl`
 
-## Deploy on Vercel
+```tsx
+import { useTranslations } from 'next-intl';
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+export default function Page() {
+  const t = useTranslations('IndexPage');
+  return <h1>{t('title')}</h1>;
+}
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Requisitos
+
+* Node.js >= 18
+* Next.js 15+
+* Cuenta en [Crowdin](https://crowdin.com)
+
+## 🧠 Autor
+
+Proyecto creado por **Franco** como ejemplo de internacionalización con Next.js y Crowdin.

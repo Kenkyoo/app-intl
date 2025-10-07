@@ -16,7 +16,7 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select,\nen {:United_states: English}\nes {:Spanien: Espan<unk> ol}\nfr {:Frankreich: Franc<unk> ais}\nde {:Deutschland: Deutsch}\nit {:Italien: Italiano}\nnl {:Niederlande: Nederlands}\npt {🇵🇹 Portugue<unk> s}\nother {Unbekannt}\n}"
+    "locale": "{locale, select,\nen {🇺🇸 English}\nes {🇪🇸 Español}\nfr {🇫🇷 Français}\nde {🇩🇪 Deutsch}\nit {🇮🇹 Italiano}\nnl {🇳🇱 Nederlands}\npt {🇵🇹 Português}\nother {Unknown}\n}"
   },
   "Manifest": {
     "name": "nächstes Beispiel"
