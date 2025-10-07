@@ -1,50 +1,50 @@
 {
   "ExamplePage": {
-    "title": "The righteous",
+    "title": "Les justes",
     "content": "A man who cultivates a garden, as Voltaire wished.\nHe who is grateful that there is music on earth.\nHe who discovers an etymology with pleasure.\nTwo employees playing silent chess in a café in the South.\nThe ceramist who premeditates a color and a shape.\nA typographer who typesetts this page well, which perhaps he doesn't like.\nA woman and a man who read the final triplets of a certain song.\nHe who caresses a sleeping animal.\nHe who justifies or wants to justify a wrong done to him.\nHe who is grateful that there is Stevenson on earth.\nHe who prefers that others are right.\nThese people, who ignore each other, are saving the world."
   },
   "Error": {
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
-    "title": "Something went wrong!"
+    "title": "Quelque chose s'est mal passé !"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of next-intl with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "Ceci est un exemple de base qui démontre l'utilisation de next-intl avec le routeur Next.js. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change.",
+    "title": "exemple next-intl"
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "exemple next-intl"
   },
   "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select, es {🇪🇸 Español} en {🇺🇸 English} other {Unknown}}"
+    "label": "Changer de langue",
+    "locale": "{locale, select,\nen {🇺🇸 Anglais}\nes {:Espagne: Espagnol}\nfr {🇫🇷 Français}\nde {🇩🇪 Deutsch}\nit {:Italia: Italiano}\nnl {:Pays-Bas: Nederlands}\npt {🇵🇹 Portugais}\nother {Inconnu}\n}"
   },
   "Manifest": {
-    "name": "next-intl example"
+    "name": "exemple next-intl"
   },
   "Navigation": {
-    "home": "Home",
-    "pathnames": "Pathnames"
+    "home": "Domicile",
+    "pathnames": "Noms des chemins"
   },
   "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
+    "description": "Veuillez vérifier à nouveau la barre d'adresse du navigateur ou utilisez la navigation pour accéder à une page connue.",
+    "title": "Page introuvable"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "Learn more about next-intl in the official docs.",
+        "description": "En savoir plus sur next-intl dans la documentation officielle.",
         "href": "https://next-intl.dev",
-        "title": "Docs"
+        "title": "Documents"
       },
       "source": {
-        "description": "Browse the source code of this example on GitHub.",
+        "description": "Parcourez le code source de cet exemple sur GitHub.",
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Source code"
+        "title": "Code source"
       }
     }
   },
   "PathnamesPage": {
     "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "title": "Noms des chemins"
   }
 }
