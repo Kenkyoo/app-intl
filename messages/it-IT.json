@@ -1,50 +1,50 @@
 {
   "ExamplePage": {
-    "title": "The righteous",
+    "title": "I giusti",
     "content": "A man who cultivates a garden, as Voltaire wished.\nHe who is grateful that there is music on earth.\nHe who discovers an etymology with pleasure.\nTwo employees playing silent chess in a café in the South.\nThe ceramist who premeditates a color and a shape.\nA typographer who typesetts this page well, which perhaps he doesn't like.\nA woman and a man who read the final triplets of a certain song.\nHe who caresses a sleeping animal.\nHe who justifies or wants to justify a wrong done to him.\nHe who is grateful that there is Stevenson on earth.\nHe who prefers that others are right.\nThese people, who ignore each other, are saving the world."
   },
   "Error": {
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
-    "title": "Something went wrong!"
+    "description": "<p>Abbiamo purtroppo riscontrato un errore.</p><p>Puoi provare a <retry>ricaricare la pagina</retry> che stavi visitando.</p>",
+    "title": "Qualcosa è andato storto!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of next-intl with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "Questo è un esempio di base che dimostra l'utilizzo di next-intl con Next.js App Router. Prova a cambiare il locale nell'angolo in alto a destra e vedi come cambia il contenuto.",
+    "title": "successivo-intl esempio"
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "successivo-intl esempio"
   },
   "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select,\nen {🇺🇸 English}\nes {🇪🇸 Español}\nfr {🇫🇷 Français}\nde {🇩🇪 Deutsch}\nit {🇮🇹 Italiano}\nnl {🇳🇱 Nederlands}\npt {🇵🇹 Português}\nother {Unknown}\n}"
+    "label": "Cambia lingua",
+    "locale": "{locale, select,\nen {🇺🇸 English}\nes {:Spagna: Espan<unk> ol}\nfr {:Francia: Franc<unk> ais}\nde {:Germania: Deutsch}\nit {:Italia: Italiano}\nnl {🇳🇱 Nederlands}\npt {:Portogallo: Portugue<unk> s}\nother {Sconosciuto}\n}"
   },
   "Manifest": {
-    "name": "next-intl example"
+    "name": "successivo-intl esempio"
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "pathnames": "Tracciati"
   },
   "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
+    "description": "Si prega di ricontrollare la barra degli indirizzi del browser o utilizzare la navigazione per andare a una pagina conosciuta.",
+    "title": "Pagina non trovata"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "Learn more about next-intl in the official docs.",
+        "description": "Scopri di più sul prossimo intl nei documenti ufficiali.",
         "href": "https://next-intl.dev",
-        "title": "Docs"
+        "title": "Documenti"
       },
       "source": {
-        "description": "Browse the source code of this example on GitHub.",
+        "description": "Sfoglia il codice sorgente di questo esempio su GitHub.",
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Source code"
+        "title": "Codice sorgente"
       }
     }
   },
   "PathnamesPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>Anche i nomi dei percorsi sono internazionalizzati.</p><p>Se stai usando la lingua predefinita inglese, vedrai <code>/it/pathnames</code> nella barra degli indirizzi del browser di questa pagina.</p><p>Se si cambia il locale in tedesco, l'URL viene localizzato di conseguenza (<code>/de/pfadnamen</code>).</p>",
+    "title": "Tracciati"
   }
 }
