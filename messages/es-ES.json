@@ -1,7 +1,7 @@
 {
   "ExamplePage": {
-    "title": "Example Page",
-    "content": "This is an example content block that is intentionally long so that it takes up a good portion of the screen. You can add paragraphs, lists, and even code examples to make it look more like a real page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc."
+    "title": "The righteous",
+    "content": "A man who cultivates a garden, as Voltaire wished.\nHe who is grateful that there is music on earth.\nHe who discovers an etymology with pleasure.\nTwo employees playing silent chess in a café in the South.\nThe ceramist who premeditates a color and a shape.\nA typographer who typesetts this page well, which perhaps he doesn't like.\nA woman and a man who read the final triplets of a certain song.\nHe who caresses a sleeping animal.\nHe who justifies or wants to justify a wrong done to him.\nHe who is grateful that there is Stevenson on earth.\nHe who prefers that others are right.\nThese people, who ignore each other, are saving the world."
   },
   "Error": {
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
