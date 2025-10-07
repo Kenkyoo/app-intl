@@ -1,50 +1,50 @@
 {
   "ExamplePage": {
-    "title": "The righteous",
-    "content": "A man who cultivates a garden, as Voltaire wished.\nHe who is grateful that there is music on earth.\nHe who discovers an etymology with pleasure.\nTwo employees playing silent chess in a café in the South.\nThe ceramist who premeditates a color and a shape.\nA typographer who typesetts this page well, which perhaps he doesn't like.\nA woman and a man who read the final triplets of a certain song.\nHe who caresses a sleeping animal.\nHe who justifies or wants to justify a wrong done to him.\nHe who is grateful that there is Stevenson on earth.\nHe who prefers that others are right.\nThese people, who ignore each other, are saving the world."
+    "title": "De goedaardige",
+    "content": "Een man die een tuin cultiveert, zoals Voltaire wilde.\nHij die dankbaar is dat er muziek is op aarde.\nHij die een etymologie met plezier ontdekt.\nTwee werknemers die stilzwijgend schaken in een café in het Zuiden.\nDe keramist die een kleur en een vorm premediteert.\nEen typograaf die deze pagina goed typt, wat hij misschien niet leuk vindt.\neen vrouw en een man die de laatste drie keer van een bepaald liedje leest.\nHij die een slapend dier geeft,\nHij die een fout rechtvaardigt of wil rechtvaardigen.\nHij die dankbaar is dat er Stevenson op aarde is.\nHij die de voorkeur geeft aan anderen heeft gelijk.\ndeze mensen die elkaar negeren, redden de wereld."
   },
   "Error": {
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
-    "title": "Something went wrong!"
+    "title": "Er ging iets mis!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of next-intl with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "Dit is een simpel voorbeeld dat aantoont hoe gebruik wordt gemaakt van de Next.js App Router. Verander de taal in de rechterbovenhoek en kijk hoe de inhoud verandert.",
+    "title": "volgende-intl voorbeeld"
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "volgende-intl voorbeeld"
   },
   "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select,\nen {🇺🇸 English}\nes {🇪🇸 Español}\nfr {🇫🇷 Français}\nde {🇩🇪 Deutsch}\nit {🇮🇹 Italiano}\nnl {🇳🇱 Nederlands}\npt {🇵🇹 Português}\nother {Unknown}\n}"
+    "label": "Taal wijzigen",
+    "locale": "{locale, select,\nen {🇺🇸 English}\nes {🇪🇸 Espanchar@@3ol}\nfr {🇫🇷 France: Francquesais}\nde {:Duitsy: Deutsch}\nit {:Italiy: Italiano}\nnl {:Nederland: Nederlands}\npt {🇵🇹 Portugees: Portugees}\nother {Onbekend}\n}"
   },
   "Manifest": {
-    "name": "next-intl example"
+    "name": "volgende-intl voorbeeld"
   },
   "Navigation": {
-    "home": "Home",
-    "pathnames": "Pathnames"
+    "home": "Startpagina",
+    "pathnames": "Traceernamen"
   },
   "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
+    "description": "Controleer de adresbalk van de browser of gebruik de navigatie om naar een bekende pagina te gaan.",
+    "title": "Pagina niet gevonden"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "Learn more about next-intl in the official docs.",
+        "description": "Meer informatie over volgende-intl in de officiële documenten.",
         "href": "https://next-intl.dev",
-        "title": "Docs"
+        "title": "Documentatie"
       },
       "source": {
-        "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Source code"
+        "description": "Blader door de broncode van dit voorbeeld op GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router-nl-NL",
+        "title": "Bron code"
       }
     }
   },
   "PathnamesPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>De padnamen zijn ook internationaliseerd.</p><p>Als u de standaard taal Engels gebruikt, ziet u <code>/en/pathnames</code> in de browser adresbalk op deze pagina.</p><p>Als u de landinstelling naar het Duits wijzigt, wordt de URL dienovereenkomstig vertaald (<code>/de/pfadnamen</code>).</p>",
+    "title": "Traceernamen"
   }
 }
