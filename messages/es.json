@@ -1,14 +1,14 @@
 {
   "ExamplePage": {
-    "title": "Página de Ejemplo",
-    "content": "Este es un bloque de contenido de ejemplo que es intencionalmente largo para ocupar buena parte de la pantalla. Puedes agregar párrafos, listas e incluso ejemplos de código para que parezca una página real. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc."
+    "title": "Los Justos",
+    "content": "Un hombre que cultiva un jardín, como quería Voltaire. El que agradece que en la tierra haya música. El que descubre con placer una etimología. Dos empleados que en un café del Sur juegan un silencioso ajedrez.\nEl ceramista que premedita un color y una forma.\nUn tipógrafo que compone bien esta página, que tal vez no le agrada\nUna mujer y un hombre que leen los tercetos finales de cierto canto.\nEl que acaricia a un animal dormido.\nEl que justifica o quiere justificar un mal que le han hecho.\nEl que agradece que en la tierra haya Stevenson.\nEl que prefiere que los otros tengan razón.\nEsas personas, que se ignoran, están salvando el mundo."
   },
   "Error": {
     "description": "<p>Lamentablemente encontramos un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>",
     "title": "¡Algo salió mal!"
   },
   "IndexPage": {
-    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con el App Router de Next.js. Prueba cambiar el idioma en la esquina superior derecha y ver cómo cambia el contenido.",
+    "description": "Este es un ejemplo básico que demuestra el uso de next-intl con el App Router de Next.js. Prueba cambiar el idioma en la esquina superior derecha y ver cómo cambia el contenido.",
     "title": "ejemplo next-intl"
   },
   "LocaleLayout": {
