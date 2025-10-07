@@ -2,14 +2,16 @@
 
 Aplicación Next.js con soporte multilenguaje usando **next-intl** y sincronización de traducciones con **Crowdin**.
 
+https://app-intl.netlify.app/es
+
 ## 🚀 Características
 
-* Next.js 15 con App Router
-* Soporte para múltiples idiomas
-* Integración con **next-intl**
-* Archivos JSON para mensajes por idioma
-* Traducciones gestionadas en **Crowdin**
-* TailwindCSS para el estilo
+- Next.js 15 con App Router
+- Soporte para múltiples idiomas
+- Integración con **next-intl**
+- Archivos JSON para mensajes por idioma
+- Traducciones gestionadas en **Crowdin**
+- TailwindCSS para el estilo
 
 ## 📦 Instalación
 
@@ -50,19 +52,19 @@ npm run lint     # Linter
 ## 💡 Ejemplo de uso de `next-intl`
 
 ```tsx
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 
 export default function Page() {
-  const t = useTranslations('IndexPage');
-  return <h1>{t('title')}</h1>;
+  const t = useTranslations("IndexPage");
+  return <h1>{t("title")}</h1>;
 }
 ```
 
 ## 📚 Requisitos
 
-* Node.js >= 18
-* Next.js 15+
-* Cuenta en [Crowdin](https://crowdin.com)
+- Node.js >= 18
+- Next.js 15+
+- Cuenta en [Crowdin](https://crowdin.com)
 
 ## 🧠 Autor
 
